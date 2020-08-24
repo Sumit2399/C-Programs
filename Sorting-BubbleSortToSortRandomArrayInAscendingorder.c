@@ -7,7 +7,7 @@ int main()
     scanf("%d",&n);
     
     for(i=0;i<n;i++){
-        a[i]=rand()%100;
+        a[i]=rand()%100; //gives ranom value from 0-99
         }
         
     printf("\nThe random array is:");
